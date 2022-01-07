@@ -1,6 +1,6 @@
 version: '3.7'
 services:
-  node-app:
+  db-api:
     build: .
     image: db-api:1.0
     ports:
